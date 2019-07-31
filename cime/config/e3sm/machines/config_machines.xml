@@ -298,6 +298,8 @@
       <env name="OMP_PROC_BIND">spread</env>
       <env name="OMP_PLACES">threads</env>
       <env name="HDF5_USE_FILE_LOCKING">FALSE</env>
+
+      <env name="PERL5LIB">/project/projectdirs/acme/perl5/lib/perl5/x86_64-linux-thread-multi</env>
     </environment_variables>
     <environment_variables compiler="intel">
       <env name="FORT_BUFFERED">yes</env>
@@ -452,6 +454,8 @@
       <env name="OMP_PROC_BIND">spread</env>
       <env name="OMP_PLACES">threads</env>
       <env name="HDF5_USE_FILE_LOCKING">FALSE</env>
+
+      <env name="PERL5LIB">/project/projectdirs/acme/perl5/lib/perl5/x86_64-linux-thread-multi</env>
     </environment_variables>
 
     <environment_variables mpilib="mpt">
