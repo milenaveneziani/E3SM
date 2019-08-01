@@ -8447,7 +8447,7 @@
     </mach>
   </grid>
   <grid name="a%T62.+oi%oARRM60to10|a%TL319.+oi%oARRM60to10">
-    <mach name="any">
+    <mach name="onyx">
       <pes compset=".*MPASCICE.+MPASO.+" pesize="any">
         <comment>none</comment>
         <ntasks>
@@ -8484,7 +8484,7 @@
     </mach>
   </grid>
   <grid name="a%T62.+oi%oARRM60to6|a%TL319.+oi%oARRM60to6">
-    <mach name="any">
+    <mach name="onyx">
       <pes compset=".*MPASCICE.+MPASO.+" pesize="any">
         <comment>none</comment>
         <ntasks>
