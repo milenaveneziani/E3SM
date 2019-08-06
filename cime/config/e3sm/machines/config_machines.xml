@@ -386,7 +386,7 @@
       </modules>
 
       <modules mpilib="impi">
-        <command name="swap">cray-mpich impi/2018.up2</command>
+        <command name="swap">cray-mpich impi/2019.up3</command>
       </modules>
 
       <modules compiler="intel">
@@ -398,7 +398,7 @@
       <modules compiler="intel19">
         <command name="load">PrgEnv-intel/6.0.5</command>
         <command name="rm">intel</command>
-        <command name="load">intel/19.0.0.117</command>
+        <command name="load">intel/19.0.3.199</command>
       </modules>
 
       <modules compiler="gnu">
@@ -460,13 +460,6 @@
 
     <environment_variables mpilib="mpt">
       <env name="MPICH_GNI_DYNAMIC_CONN">disabled</env>
-    </environment_variables>
-    <environment_variables mpilib="impi">
-      <env name="I_MPI_FABRICS">ofi</env>
-      <env name="I_MPI_OFI_PROVIDER">gni</env>
-      <env name="I_MPI_PRINT_VERSION">yes</env>
-      <env name="I_MPI_OFI_LIBRARY">/global/common/cori/software/libfabric/1.6.1/gnu/lib/libfabric.so</env>
-      <env name="I_MPI_PMI_LIBRARY">/usr/lib64/slurmpmi/libpmi.so</env>
     </environment_variables>
     <environment_variables compiler="intel">
       <env name="FORT_BUFFERED">yes</env>
