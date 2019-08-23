@@ -180,8 +180,8 @@ def buildnml(case, caseroot, compname):
     elif ice_grid == 'oARRM60to6':
         grid_date += '180803'
         grid_prefix += 'seaice.ARRM60to6'
-        decomp_date += '180820'
-        decomp_prefix += 'mpas-cice.graph.info.'
+        decomp_date += '190603'
+        decomp_prefix += 'mpas-seaice.graph.v2.1.'
 
 
     #--------------------------------------------------------------------
