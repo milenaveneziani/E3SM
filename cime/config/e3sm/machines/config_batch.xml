@@ -297,7 +297,8 @@
       </directives>
       <queues>
 	<queue walltimemax="00:59:00" nodemax="155" strict="true">debug</queue>
-	<queue walltimemax="04:00:00" default="true">frontier</queue>
+	<queue walltimemax="01:00:00" default="true">debug</queue>
+	<queue walltimemax="04:00:00">standard</queue>
       </queues>
     </batch_system>
 
