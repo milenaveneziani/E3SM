@@ -46,7 +46,7 @@
     <default_value></default_value>
     <values modifier='additive'>
       <value compset=""                >-mach $MACH</value>
-      <value compset="_EAM"            >-phys default</value>
+      <value compset="_EAM"            >-phys default -cosp</value>
       <value compset="_EAM%CMIP6_"      >&eam_phys_defaults; &eam_chem_defaults;</value>
       <value compset="_EAM%CMIP6-1pctCO2" >&eam_phys_defaults; &eam_chem_defaults;</value>
       <value compset="_EAM%CMIP6-4xCO2"   >&eam_phys_defaults; &eam_chem_defaults;</value>
