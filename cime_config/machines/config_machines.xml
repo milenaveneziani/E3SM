@@ -4504,12 +4504,12 @@
       </arguments>
     </mpirun>
     <module_system type="module">
-      <init_path lang="perl">/opt/cray/pe/modules/3.2.11.5/init/perl.pm</init_path>
-      <init_path lang="python">/opt/cray/pe/modules/3.2.11.5/init/python.py</init_path>
-      <init_path lang="sh">/opt/cray/pe/modules/3.2.11.5/init/sh</init_path>
-      <init_path lang="csh">/opt/cray/pe/modules/3.2.11.5/init/csh</init_path>
-      <cmd_path lang="perl">/opt/cray/pe/modules/3.2.11.5/bin/modulecmd perl</cmd_path>
-      <cmd_path lang="python">/opt/cray/pe/modules/3.2.11.5/bin/modulecmd python</cmd_path>
+      <init_path lang="perl">/opt/cray/pe/modules/3.2.11.7/init/perl.pm</init_path>
+      <init_path lang="python">/opt/cray/pe/modules/3.2.11.7/init/python.py</init_path>
+      <init_path lang="sh">/opt/cray/pe/modules/3.2.11.7/init/sh</init_path>
+      <init_path lang="csh">/opt/cray/pe/modules/3.2.11.7/init/csh</init_path>
+      <cmd_path lang="perl">/opt/cray/pe/modules/3.2.11.7/bin/modulecmd perl</cmd_path>
+      <cmd_path lang="python">/opt/cray/pe/modules/3.2.11.7/bin/modulecmd python</cmd_path>
       <cmd_path lang="sh">module</cmd_path>
       <cmd_path lang="csh">module</cmd_path>
       <modules>
@@ -4528,17 +4528,17 @@
       </modules>
 
       <modules compiler="intel">
-        <command name="load">PrgEnv-intel/8.0.0</command>
+        <command name="load">PrgEnv-intel/8.3.3</command>
         <command name="rm">intel</command>
         <command name="rm">intel-classic</command>
-        <command name="load">intel-classic/2021.3.0</command>
+        <command name="load">intel-classic/2022.1.0</command>
         <command name="rm">cray-mpich</command>
-        <command name="load">cray-mpich/8.1.14</command>
-        <command name="load">cray-netcdf/4.7.4.7</command>
-        <command name="load">cray-hdf5/1.12.0.7</command>
-        <command name="load">cray-parallel-netcdf/1.12.1.7</command>
+        <command name="load">cray-mpich/8.1.19</command>
+        <command name="load">cray-netcdf/4.9.0.1</command>
+        <command name="load">cray-hdf5/1.12.1.1</command>
+        <command name="load">cray-parallel-netcdf/1.12.3.1</command>
         <command name="rm">cray-libsci</command>
-        <command name="load">cray-libsci/21.08.1.2</command>
+        <command name="load">cray-libsci/22.08.1.1</command>
       </modules>
     </module_system>
     <RUNDIR>$CIME_OUTPUT_ROOT/$CASE/run</RUNDIR>
