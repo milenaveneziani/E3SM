@@ -3680,10 +3680,6 @@
 			description="Equilibrium tidal potential"
 			packages="forwardMode"
 		/>
-		<var name="nTidalPotentialConstituents" type="integer" dimensions="Time"
-			description="Number of tidal constituents"
-			packages="tidalPotentialForcingPKG"
-		/>
 		<var name="tidalPotentialConstituentFrequency" type="real" dimensions="maxTidalConstituents Time" units="s^-1"
 			description="Frequency of tidal constituents"
 			packages="tidalPotentialForcingPKG"
@@ -3716,10 +3712,6 @@
 			description="Latitude function for tidal constituents: long-period = 3\sin^2(\phi)-1, diurnal = \sin(2\phi), semi-diurnal = \cos^2(\phi)"
 			packages="tidalPotentialForcingPKG"
 		/>
-		<var name="tidalPotentialZMid" type="real" dimensions="nVertLevels nCells Time" units="m"
-			description="zMid - Equilibrium tidal potential in RK4"
-			packages="tidalPotentialForcingPKG"
-		/>
 		<var name="sshSubcycleCurWithTides" type="real" dimensions="nCells Time" units="m"
 			description="SSH - tidal potential in split explicit "
 			packages="tidalPotentialForcingPKG"
@@ -3731,10 +3723,6 @@
 		<var name="coastalSmoothingFactor" type="real" dimensions="nCells" units="1"
 			 description="Multiplication factors to smooth ssh at coastlines for SAL caculation"
 			 packages="tidalPotentialForcingPKG"
-		/>
-		<var name="RediKappaData" type="real" dimensions="nCells" units="m^2 s^-1"
-			 description="Redi isopycnal mixing Kappa value. This is the data field specified at init."
-			 packages="gm"
 		/>
 	</var_struct>
 	<var_struct name="timeVaryingForcing" time_levs="1">
