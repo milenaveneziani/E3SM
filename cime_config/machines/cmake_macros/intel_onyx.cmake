@@ -1,4 +1,5 @@
 string(APPEND FFLAGS " -fimf-use-svml")
+string(APPEND CFLAGS " -Wno-error=incompatible-function-pointer-types -Wno-error=implicit-function-declaration")
 if (NOT DEBUG)
   string(APPEND FFLAGS " -qno-opt-dynamic-align")
 endif()
