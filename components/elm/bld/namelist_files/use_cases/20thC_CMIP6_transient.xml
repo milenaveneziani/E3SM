@@ -8,8 +8,10 @@
 <use_case_desc use_cn=".true." >Simulate transient land-use, aerosol deposition, and Nitrogen deposition changes from 1850 to 2005</use_case_desc>
 
 <sim_year>1850</sim_year>
-
 <sim_year_range>1850-2000</sim_year_range>
+
+<sim_year hgrid="ne0np4_arcticx4v1.pg2">1950</sim_year>
+<sim_year_range hgrid="ne0np4_arcticx4v1.pg2">1950-2014</sim_year_range>
 
 <clm_start_type>arb_ic</clm_start_type>
 
